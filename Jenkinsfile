@@ -76,5 +76,10 @@ pipeline {
                 }
             }
           }
+    stage("Deploy jar/war file") {
+        steps {
+            echo "uploaded suuccessfully"
+        }
+    }
 }
 }
